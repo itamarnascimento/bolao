@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'cd web'
+                sh 'cd web/web'
                 sh 'npm install'
                 sh 'npm build' 
             }
